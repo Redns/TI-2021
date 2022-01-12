@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Project/GuoSai/Upper/ESP32_C/DMV/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "D:/Project/GuoSai/Upper/ESP32_C/DMV/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "D:/Project/GuoSai/Upper/ESP32_C/DMV/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "D:/Project/GuoSai/Upper/ESP32_C/DMV/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "D:/Project/GuoSai/Upper/ESP32_C/DMV/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "D:/Project/GuoSai/Upper/ESP32_C/DMV/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "D:/Project/GuoSai/Upper/ESP32_C/DMV/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		},
+		{
+			"file" : "D:/Project/GuoSai/Upper/ESP32_C/DMV/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "D:/Project/GuoSai/Upper/ESP32_C/DMV/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "D:/Project/GuoSai/Upper/ESP32_C/DMV/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

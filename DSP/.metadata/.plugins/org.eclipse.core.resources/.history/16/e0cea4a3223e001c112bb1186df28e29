@@ -1,0 +1,22 @@
+#ifndef __FFT_H
+#define __FFT_H
+
+#include "stdio.h"
+
+#define PI 3.1415926
+
+typedef double ElemType;
+
+/* 定义复数结构体 */
+typedef struct{
+    ElemType real;
+    ElemType imag;
+}complex;
+
+
+void     ChangeSeat(complex* input);          // 变址
+complex  Mul_Complex(complex a, complex b);   // 复数乘法
+void     FFT();                               // FFT
+void     IFFT();                              // IFFT
+
+#endif

@@ -1,0 +1,5 @@
+#include "pga.h"
+
+void setRate(PGA_RATE rate){
+
+}

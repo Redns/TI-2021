@@ -1,0 +1,51 @@
+
+**** Build of configuration CPU1_RAM for project adc_ex1_soc_software ****
+
+"D:\\CCS\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../adc_ex1_soc_software.syscfg"
+Invoking: SysConfig
+"D:/CCS/ccs/utils/sysconfig_1.10.0/sysconfig_cli.bat" -s "D:/C2000_WAVE/C2000Ware_4_00_00_00/.metadata/sdk.json" -d "F28004x" --script "D:/Project/GuoSai/DSP/adc_ex1_soc_software/adc_ex1_soc_software.syscfg" -o "syscfg" --package F28004x_100PZ --part F28004x_100PZ --compiler ccs
+Running script...
+Validating...
+Generating Code (adc_ex1_soc_software.syscfg)...
+Writing D:\Project\GuoSai\DSP\adc_ex1_soc_software\CPU1_RAM\syscfg\board.c...
+Writing D:\Project\GuoSai\DSP\adc_ex1_soc_software\CPU1_RAM\syscfg\board.h...
+Writing D:\Project\GuoSai\DSP\adc_ex1_soc_software\CPU1_RAM\syscfg\pinmux.csv...
+Writing D:\Project\GuoSai\DSP\adc_ex1_soc_software\CPU1_RAM\syscfg\adc.dot...
+Finished building: "../adc_ex1_soc_software.syscfg"
+ 
+Building file: "../device/f28004x_codestartbranch.asm"
+Invoking: C2000 Compiler
+"D:/CCS/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --include_path="D:/Project/GuoSai/DSP/adc_ex1_soc_software" --include_path="D:/Project/GuoSai/DSP/adc_ex1_soc_software/device" --include_path="D:/C2000_WAVE/C2000Ware_4_00_00_00/driverlib/f28004x/driverlib" --include_path="D:/CCS/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include" --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="device/f28004x_codestartbranch.d_raw" --include_path="D:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/syscfg" --obj_directory="device"  "../device/f28004x_codestartbranch.asm"
+Finished building: "../device/f28004x_codestartbranch.asm"
+ 
+Building file: "../adc_ex1_soc_software.c"
+Invoking: C2000 Compiler
+"D:/CCS/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --include_path="D:/Project/GuoSai/DSP/adc_ex1_soc_software" --include_path="D:/Project/GuoSai/DSP/adc_ex1_soc_software/device" --include_path="D:/C2000_WAVE/C2000Ware_4_00_00_00/driverlib/f28004x/driverlib" --include_path="D:/CCS/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include" --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="adc_ex1_soc_software.d_raw" --include_path="D:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/syscfg"  "../adc_ex1_soc_software.c"
+Finished building: "../adc_ex1_soc_software.c"
+ 
+Building file: "../device/device.c"
+Invoking: C2000 Compiler
+"D:/CCS/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --include_path="D:/Project/GuoSai/DSP/adc_ex1_soc_software" --include_path="D:/Project/GuoSai/DSP/adc_ex1_soc_software/device" --include_path="D:/C2000_WAVE/C2000Ware_4_00_00_00/driverlib/f28004x/driverlib" --include_path="D:/CCS/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include" --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="device/device.d_raw" --include_path="D:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/syscfg" --obj_directory="device"  "../device/device.c"
+Finished building: "../device/device.c"
+ 
+Building file: "syscfg/board.c"
+Invoking: C2000 Compiler
+"D:/CCS/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --include_path="D:/Project/GuoSai/DSP/adc_ex1_soc_software" --include_path="D:/Project/GuoSai/DSP/adc_ex1_soc_software/device" --include_path="D:/C2000_WAVE/C2000Ware_4_00_00_00/driverlib/f28004x/driverlib" --include_path="D:/CCS/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include" --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="syscfg/board.d_raw" --include_path="D:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/syscfg" --obj_directory="syscfg"  "syscfg/board.c"
+Finished building: "syscfg/board.c"
+ 
+Building target: "adc_ex1_soc_software.out"
+Invoking: C2000 Linker
+"D:/CCS/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/bin/cl2000" -v28 -ml -mt --cla_support=cla2 --float_support=fpu32 --tmu_support=tmu0 --vcu_support=vcu0 -Ooff --diag_suppress=10063 --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"adc_ex1_soc_software.map" --heap_size=0x200 --stack_size=0x3F8 --warn_sections -i"D:/CCS/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/lib" -i"D:/CCS/ccs/tools/compiler/ti-cgt-c2000_21.6.0.LTS/include" --reread_libs --diag_wrap=off --display_error_number --xml_link_info="adc_ex1_soc_software_linkInfo.xml" --entry_point=code_start --rom_model -o "adc_ex1_soc_software.out" "./adc_ex1_soc_software.obj" "./syscfg/board.obj" "./device/device.obj" "./device/f28004x_codestartbranch.obj" "../28004x_generic_ram_lnk.cmd" "D:/C2000_WAVE/C2000Ware_4_00_00_00/driverlib/f28004x/driverlib/ccs/Debug/driverlib.lib"  -llibc.a 
+<Linking>
+Finished building target: "adc_ex1_soc_software.out"
+ 
+if 0 == 1  mkdir "D:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/simulation"
+if 0 == 1  C:/TDM-GCC-64/bin/g++  -c -DCLB_SIM -ID:/C2000_WAVE/C2000Ware_4_00_00_00/utilities/clb_tool/clb_syscfg/systemc-2.3.3/src -ID:/C2000_WAVE/C2000Ware_4_00_00_00/utilities/clb_tool/clb_syscfg/systemc/include/type2 -ID:/Project/GuoSai/DSP/adc_ex1_soc_software -IC:/TDM-GCC-64/bin/include -Og -g -gdwarf-3 -gstrict-dwarf -Wall -MMD -MP -MFD:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/simulation/clb_sim.d -MTD:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/simulation/clb_sim.o -ID:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/syscfg   -fno-threadsafe-statics  -oD:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/simulation/clb_sim.o D:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/syscfg/clb_sim.cpp
+if 0 == 1  C:/TDM-GCC-64/bin/g++ -DCLB_SIM -Og -g -gdwarf-3 -gstrict-dwarf -Wall -Wl,-Map,D:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/simulation/simulation_output.map -LD:/C2000_WAVE/C2000Ware_4_00_00_00/utilities/clb_tool/clb_syscfg/systemc-2.3.3/build/src -oD:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/simulation/simulation_output.exe D:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/simulation/clb_sim.o D:/C2000_WAVE/C2000Ware_4_00_00_00/utilities/clb_tool/clb_syscfg/systemc/src/type2/CLB_FSM_SC_model.o D:/C2000_WAVE/C2000Ware_4_00_00_00/utilities/clb_tool/clb_syscfg/systemc/src/type2/CLB_HLC_SC_model.o D:/C2000_WAVE/C2000Ware_4_00_00_00/utilities/clb_tool/clb_syscfg/systemc/src/type2/CLB_LUT4_SC_model.o D:/C2000_WAVE/C2000Ware_4_00_00_00/utilities/clb_tool/clb_syscfg/systemc/src/type2/CLB_OutputLUT_SC_model.o D:/C2000_WAVE/C2000Ware_4_00_00_00/utilities/clb_tool/clb_syscfg/systemc/src/type2/CLB_counter_SC_model.o D:/C2000_WAVE/C2000Ware_4_00_00_00/utilities/clb_tool/clb_syscfg/systemc/src/type2/CLB_counter_top_SC_model.o D:/C2000_WAVE/C2000Ware_4_00_00_00/utilities/clb_tool/clb_syscfg/systemc/src/type2/CLB_FSM_top_SC_model.o D:/C2000_WAVE/C2000Ware_4_00_00_00/utilities/clb_tool/clb_syscfg/systemc/src/type2/CLB_LUT4_top_SC_model.o D:/C2000_WAVE/C2000Ware_4_00_00_00/utilities/clb_tool/clb_syscfg/systemc/src/type2/CLB_OutputLUT_top_SC_model.o  -Wl,--start-group -lsystemc -Wl,--end-group
+if 0 == 1  "./simulation/simulation_output.exe"
+if 0 == 1  D:/CCS/ccs/tools/node/node.exe "D:/C2000_WAVE/C2000Ware_4_00_00_00/utilities/clb_tool/clb_syscfg/dot_file_libraries/clbDotUtility.js"  "D:/C2000_WAVE/C2000Ware_4_00_00_00/utilities/clb_tool/clb_syscfg/" "D:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/syscfg" "D:/Project/GuoSai/DSP/adc_ex1_soc_software/CPU1_RAM/syscfg/clb.dot"
+ 
+
+**** Build Finished ****

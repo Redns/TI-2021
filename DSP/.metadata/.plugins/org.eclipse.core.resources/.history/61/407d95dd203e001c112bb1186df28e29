@@ -1,0 +1,13 @@
+#ifndef __FFT_H
+#define __FFT_H
+
+#define PI 3.1415926
+
+typedef double ElemType;    //原始数据序列的数据类型,可以在这里设置
+
+/* 定义复数结构体 */
+typedef struct{
+    ElemType real,imag;
+}complex;
+
+#endif

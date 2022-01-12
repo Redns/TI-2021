@@ -1,0 +1,8 @@
+#include "pga.h"
+
+void setRate(PGA_RATE rate){
+    switch(rate){
+        case PGA_x1:
+            break;
+    }
+}

@@ -1,0 +1,16 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+activeLaunchTarget=null\:---
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:cmsis_msp432e4_dsp_example_MSP_EXP432E401Y_nortos_ccs
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:GuoSai/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:GuoSai/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:adc_ex5_soc_continuous/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:adc_ex5_soc_continuous/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:adc_ex6_soc_continuous_dma/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:adc_ex6_soc_continuous_dma/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:cmsis_msp432e4_dsp_example_MSP_EXP432E401Y_nortos_ccs/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:cmsis_msp432e4_dsp_example_MSP_EXP432E401Y_nortos_ccs/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:empty_driverlib_project/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:empty_driverlib_project/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

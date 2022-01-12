@@ -1,0 +1,14 @@
+{
+  "C_Cpp.intelliSenseEngine": "Tag Parser",
+  "files.associations": {
+    "*.m": "matlab",
+    "*.html": "html",
+    "l298n.h": "c",
+    "esp_spi_flash.h": "c",
+    "task.h": "c",
+    "freertos.h": "c",
+    "image_trans.h": "c",
+    "*.ipp": "c",
+    "nvs_flash.h": "c"
+  }
+}

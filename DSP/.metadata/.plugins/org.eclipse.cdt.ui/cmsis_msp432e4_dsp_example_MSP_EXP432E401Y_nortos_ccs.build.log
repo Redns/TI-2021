@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project cmsis_msp432e4_dsp_example_MSP_EXP432E401Y_nortos_ccs ****
+
+"D:\\CCS\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'cmsis_msp432e4_dsp_example_MSP_EXP432E401Y_nortos_ccs.out' is up to date.
+
+**** Build Finished ****

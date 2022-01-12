@@ -1,0 +1,33 @@
+
+**** Build of configuration CPU1_RAM for project adc_ex14_ppb_pwm_trip ****
+
+"D:\\CCS\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+Building file: "../adc_ex14_ppb_pwm_trip.syscfg"
+Invoking: SysConfig
+"D:/CCS/ccs/utils/sysconfig_1.10.0/sysconfig_cli.bat" -s "D:/C2000_WAVE/C2000Ware_4_00_00_00/driverlib/.metadata/sdk.json" -d "F28004x" --script "D:/Project/GuoSai/DSP/adc_ex14_ppb_pwm_trip/adc_ex14_ppb_pwm_trip.syscfg" -o "syscfg" --package F28004x_100PZ --part F28004x_100PZ --compiler ccs
+ 
+Usage:
+ cli [-o <dir>] [-s <file>] [-u <string>] [-b <name>] [-d <name>] [-p <name>] [-r <name>] [--treatWarningsAsErrors] <script>
+ cli --help
+ cli --version
+ 
+ example: cli -s meta_data/sdk.json -d MSP432P401R scripts/two_uarts.js
+ example: -s sdk.json -d MSP432P401R -o ./display_cfg sdk/cfgs/display.syscfg
+ 
+ Note that the all arguments other than '--help' and '--version' may also be 
+ specified via the script with an embedded @cliArgs comment directive. 
+ E.g. // @cliArgs -d MSP432P401R
+ 
+ If an argument is embedded in a script and explicitly specified via the CLI
+ then precedence is given to the CLI arguments. Additionally, specifying 
+ "--board" or "--device" on the CLI will override any "--board" and "--device"
+  arguments specified in the script.
+ 
+subdir_rules.mk:16: recipe for target 'build-2071550497' failed
+gmake: *** No rule to make target 'D:/Project/driverlib/ccs/Debug/driverlib.lib', needed by 'all'.
+Invalid argument '-s': File "D:\C2000_WAVE\C2000Ware_4_00_00_00\driverlib\.metadata\sdk.json" does not exist
+gmake: *** [build-2071550497] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****

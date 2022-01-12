@@ -1,0 +1,1 @@
+cmd='D:/ESP32_Env/tools/cmake/3.16.4/bin/cmake.exe;-DSDKCONFIG=D:/Project/GuoSai/Upper/ESP32_C/DMV/sdkconfig;-DIDF_PATH=D:/ESP_IDF/esp-idf;-DIDF_TARGET=esp32;-DPYTHON_DEPS_CHECKED=1;-DPYTHON=d:/ESP_IDF/python_env/idf4.1_py3.8_env/Scripts/python.exe;-DEXTRA_COMPONENT_DIRS=D:/ESP_IDF/esp-idf/components/bootloader;-DLEGACY_INCLUDE_COMMON_HEADERS=;-GNinja;<SOURCE_DIR><SOURCE_SUBDIR>'

@@ -1,0 +1,6 @@
+#ifndef __PGA_H
+#define __PGA_H
+
+void setRate(PGA_RATE rate);
+
+#endif

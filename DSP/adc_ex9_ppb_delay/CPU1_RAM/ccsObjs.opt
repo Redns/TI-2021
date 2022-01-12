@@ -1,0 +1,1 @@
+"./adc_ex9_ppb_delay.obj" "./syscfg/board.obj" "./device/device.obj" "./device/f28004x_codestartbranch.obj" "../28004x_generic_ram_lnk.cmd" "D:/C2000_WAVE/C2000Ware_4_00_00_00/driverlib/f28004x/driverlib/ccs/Debug/driverlib.lib" -llibc.a 

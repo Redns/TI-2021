@@ -1,0 +1,6 @@
+#ifndef __FFT_H
+#define __FFT_H
+
+#define PI 3.1415926
+
+#endif

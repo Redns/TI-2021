@@ -1,0 +1,15 @@
+#ifndef __PGA_H
+#define __PGA_H
+
+typedef enum{
+    PGA_x1,
+    PGA_x4,
+    PGA_x10,
+    PGA_x40
+}PGA_RATE;
+
+
+void PgaInit();
+void PgaSetRate(PGA_RATE rate);    // …Ë÷√PGA±∂¬ 
+
+#endif

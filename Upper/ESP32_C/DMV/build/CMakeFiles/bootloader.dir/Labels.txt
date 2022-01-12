@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/Project/GuoSai/Upper/ESP32_C/DMV/build/CMakeFiles/bootloader
+D:/Project/GuoSai/Upper/ESP32_C/DMV/build/CMakeFiles/bootloader.rule
+D:/Project/GuoSai/Upper/ESP32_C/DMV/build/CMakeFiles/bootloader-complete.rule
+D:/Project/GuoSai/Upper/ESP32_C/DMV/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/Project/GuoSai/Upper/ESP32_C/DMV/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/Project/GuoSai/Upper/ESP32_C/DMV/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/Project/GuoSai/Upper/ESP32_C/DMV/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
+D:/Project/GuoSai/Upper/ESP32_C/DMV/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/Project/GuoSai/Upper/ESP32_C/DMV/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/Project/GuoSai/Upper/ESP32_C/DMV/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule

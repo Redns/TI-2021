@@ -1,0 +1,8 @@
+
+**** Build of configuration CPU1_RAM for project adc_ex6_soc_continuous_dma ****
+
+"D:\\CCS\\ccs\\utils\\bin\\gmake" -k -j 8 all -O 
+ 
+gmake[1]: 'adc_ex6_soc_continuous_dma.out' is up to date.
+
+**** Build Finished ****
